@@ -41,9 +41,21 @@
 
 # PROBLEM 4:
 
+a = int(input('Side A:'))
+b = int(input('Side B:'))
+c = int(input('Side C:'))
 
+if a == b and b == c:
+    print('It is equalateral.')
+
+elif a != b and b != c and a != c:
+    print('It is scalene.')
+
+else: 
+    print('It is isosceles.')
 
 # PROBLEM 5:
+
 
 # PROBLEM 6:
 
