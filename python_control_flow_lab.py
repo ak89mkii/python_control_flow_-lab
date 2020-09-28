@@ -75,3 +75,46 @@
 
 # PROBLEM 6:
 
+month = input('Enter the month of the year (format Jan - Dec):')
+day = int(input('Enter the day of the month:'))
+
+if month == ( 'Jan' or 'Feb'):
+    print('...is in winter.')
+
+elif month == ( 'Apr' or 'May'):
+    print('...is in spring.')
+
+elif month == ( 'Jul' or 'Aug'):
+    print('...is in summer.')
+
+elif month == ( 'Oct' or 'Nov'):
+    print('...is in fall.')
+
+elif month == ( 'Dec'):
+    if day < 21:
+        print('...is in fall.')
+    else:
+        print('...is in winter.')
+
+elif month == ( 'Mar'):
+    if day < 19:
+        print('...is in winter.')
+    else:
+        print('...is in spring.')
+
+elif month == ( 'Jun'):
+    if day < 20:
+        print('...is in spring.')
+    else:
+        print('...is in summer.')
+    
+elif month == ( 'Sep'):
+    if day < 21:
+        print('...is in summer.')
+    else:
+        print('...is in fall.')
+
+else:
+    print({"Gondor / Hoth"})
+
+
