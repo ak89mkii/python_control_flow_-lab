@@ -41,20 +41,36 @@
 
 # PROBLEM 4:
 
-a = int(input('Side A:'))
-b = int(input('Side B:'))
-c = int(input('Side C:'))
+# a = int(input('Side A:'))
+# b = int(input('Side B:'))
+# c = int(input('Side C:'))
 
-if a == b and b == c:
-    print('It is equalateral.')
+# if a == b and b == c:
+#     print('It is equalateral.')
 
-elif a != b and b != c and a != c:
-    print('It is scalene.')
+# elif a != b and b != c and a != c:
+#     print('It is scalene.')
 
-else: 
-    print('It is isosceles.')
+# else: 
+#     print('It is isosceles.')
 
 # PROBLEM 5:
+
+# def fib(n):
+#     a = 0
+#     b = 1
+
+#     print(a)
+#     print(b)
+
+#     for i in range(2,n):
+#         c = a + b
+#         a = b
+#         b = c
+
+#         print(f'term: {i} / number: {c}')
+
+# fib(51)
 
 
 # PROBLEM 6:
